@@ -7,7 +7,7 @@ import java.nio.charset.StandardCharsets;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        File root = new File("C:\\Users\\Arthur\\Desktop\\字幕");
+        File root = new File("D:\\字幕");
         File[] files = root.listFiles();
         if (files == null) return;
         for (File file : files) {
